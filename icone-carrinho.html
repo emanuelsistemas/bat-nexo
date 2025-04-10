@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ícone de Carrinho de Compras para Nexo PDV</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #2563eb;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
+    
+    h2 {
+      color: #1e40af;
+      margin-top: 30px;
+    }
+    
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f9fafb;
+    }
+    
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+    }
+    
+    .icon {
+      width: 128px;
+      height: 128px;
+      background-color: #3b82f6;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    .icon svg {
+      width: 100%;
+      height: 100%;
+      fill: white;
+    }
+    
+    .steps {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+    
+    .steps li {
+      margin-bottom: 10px;
+    }
+    
+    .download-btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    
+    .download-btn:hover {
+      background-color: #1d4ed8;
+    }
+    
+    .note {
+      background-color: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    
+    code {
+      background-color: #f1f5f9;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ícone de Carrinho de Compras para Nexo PDV</h1>
+  
+  <p>
+    Esta página fornece um ícone de carrinho de compras para ser usado com os atalhos dos arquivos .bat do Nexo PDV.
+  </p>
+  
+  <div class="icon-container">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+      </svg>
+    </div>
+  </div>
+  
+  <h2>Como Usar Este Ícone</h2>
+  
+  <div class="card">
+    <h3>Passo 1: Salvar o Ícone</h3>
+    <p>Clique com o botão direito na imagem do carrinho acima e selecione "Salvar imagem como..." para salvar o ícone em seu computador.</p>
+    <p>Alternativamente, você pode usar o botão abaixo para baixar o ícone em formato SVG:</p>
+    <a href="#" id="download-svg" class="download-btn">Baixar Ícone SVG</a>
+  </div>
+  
+  <div class="card">
+    <h3>Passo 2: Criar Atalhos para os Arquivos .bat</h3>
+    <ol class="steps">
+      <li>Clique com o botão direito no arquivo .bat (por exemplo, abrir-nexo-pdv-porta.bat)</li>
+      <li>Selecione "Criar Atalho"</li>
+      <li>Mova o atalho criado para a Área de Trabalho ou outro local de sua preferência</li>
+    </ol>
+  </div>
+  
+  <div class="card">
+    <h3>Passo 3: Alterar o Ícone do Atalho</h3>
+    <ol class="steps">
+      <li>Clique com o botão direito no atalho criado</li>
+      <li>Selecione "Propriedades"</li>
+      <li>Na janela de propriedades, clique no botão "Alterar ícone"</li>
+      <li>Clique em "Procurar" e navegue até o local onde você salvou o ícone</li>
+      <li>Selecione o ícone e clique em "Abrir"</li>
+      <li>Clique em "OK" e depois em "Aplicar" para salvar as alterações</li>
+    </ol>
+  </div>
+  
+  <div class="note">
+    <p>
+      <strong>Nota:</strong> Se você tiver problemas para usar o ícone SVG, você pode convertê-lo para o formato ICO usando ferramentas online como <a href="https://convertio.co/svg-ico/" target="_blank">Convertio</a> ou <a href="https://www.aconvert.com/icon/svg-to-ico/" target="_blank">Aconvert</a>.
+    </p>
+  </div>
+  
+  <script>
+    // Função para baixar o ícone SVG
+    document.getElementById('download-svg').addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Cria o conteúdo SVG
+      const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#3b82f6">
+        <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+      </svg>`;
+      
+      // Cria um blob com o conteúdo SVG
+      const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+      
+      // Cria um URL para o blob
+      const url = URL.createObjectURL(blob);
+      
+      // Cria um link para download
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'carrinho-nexo-pdv.svg';
+      
+      // Adiciona o link ao documento e clica nele
+      document.body.appendChild(a);
+      a.click();
+      
+      // Remove o link do documento
+      document.body.removeChild(a);
+      
+      // Libera o URL
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>

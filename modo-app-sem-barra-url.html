@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexo PDV - Modo App Sem Barra de URL</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #2563eb;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
+    
+    h2 {
+      color: #1e40af;
+      margin-top: 30px;
+    }
+    
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f9fafb;
+    }
+    
+    .download-btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    
+    .download-btn:hover {
+      background-color: #1d4ed8;
+    }
+    
+    .note {
+      background-color: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    
+    code {
+      background-color: #f1f5f9;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    
+    .steps {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+    
+    .steps li {
+      margin-bottom: 10px;
+    }
+    
+    .screenshot {
+      max-width: 100%;
+      border: 1px solid #e5e7eb;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nexo PDV - Modo App Sem Barra de URL</h1>
+  
+  <p>
+    Esta página explica como abrir o Nexo PDV em modo app sem a barra de URL, proporcionando uma experiência mais limpa e profissional.
+  </p>
+  
+  <div class="note">
+    <strong>Nota:</strong> Esta solução requer o Google Chrome instalado no computador.
+  </div>
+  
+  <div class="note">
+    <strong>Novo!</strong> Agora você pode <a href="icone-carrinho.html">personalizar o ícone dos atalhos</a> com um ícone de carrinho de compras.
+  </div>
+  
+  <h2>O que é o Modo App?</h2>
+  
+  <p>
+    O Modo App é uma funcionalidade do Google Chrome que permite abrir sites como se fossem aplicativos nativos, sem mostrar a barra de URL e outros elementos do navegador.
+    Isso proporciona uma experiência mais limpa e profissional para o usuário.
+  </p>
+  
+  <p>
+    <strong>Novidade:</strong> Todos os scripts agora abrem o Chrome em tela cheia automaticamente, adaptando-se à resolução do seu monitor.
+  </p>
+  
+  <h2>Opções de Instalação</h2>
+  
+  <div class="card">
+    <h3>Para Windows</h3>
+    <p>Escolha uma das opções abaixo:</p>
+    
+    <h4>Opção 1: Versão para Produção</h4>
+    <p>Esta versão é simples e abre diretamente o ambiente de produção.</p>
+    <a href="abrir-nexo-pdv-simples.bat" download class="download-btn">Baixar Versão Produção</a>
+    
+    <h4>Opção 2: Versão para Desenvolvimento com Porta</h4>
+    <p>Esta versão é simples como a de produção, mas permite configurar a porta para o ambiente de desenvolvimento local.</p>
+    <a href="abrir-nexo-pdv-porta.bat" download class="download-btn">Baixar Versão Desenvolvimento Simples</a>
+    
+    <h4>Opção 3: Versão para Desenvolvimento Avançada</h4>
+    <p>Esta versão permite configurar a porta para o ambiente de desenvolvimento local com opções adicionais.</p>
+    <a href="abrir-nexo-pdv-dev.bat" download class="download-btn">Baixar Versão Desenvolvimento Avançada</a>
+    
+    <h4>Opção 4: Versão Completa</h4>
+    <p>Esta versão permite escolher entre diferentes ambientes, mas pode apresentar problemas em alguns sistemas.</p>
+    <a href="abrir-nexo-pdv.bat" download class="download-btn">Baixar Versão Completa</a>
+  </div>
+  
+  <div class="card">
+    <h3>Para Linux e macOS</h3>
+    <p>Use o script shell abaixo:</p>
+    <a href="abrir-nexo-pdv.sh" download class="download-btn">Baixar Script Shell</a>
+    <p>Após baixar, torne o arquivo executável com o comando:</p>
+    <code>chmod +x abrir-nexo-pdv.sh</code>
+  </div>
+  
+  <h2>Como Usar</h2>
+  
+  <h3>No Windows:</h3>
+  <ol class="steps">
+    <li>Baixe um dos arquivos .bat acima</li>
+    <li>Salve o arquivo em um local de fácil acesso (ex: Área de Trabalho)</li>
+    <li>Dê um duplo clique no arquivo para executá-lo</li>
+    <li>Se estiver usando a versão completa, selecione o ambiente desejado</li>
+    <li>O Nexo PDV será aberto em modo app, sem a barra de URL</li>
+  </ol>
+  
+  <h3>No Linux ou macOS:</h3>
+  <ol class="steps">
+    <li>Baixe o arquivo .sh acima</li>
+    <li>Abra o terminal e navegue até a pasta onde o arquivo foi salvo</li>
+    <li>Torne o arquivo executável com o comando: <code>chmod +x abrir-nexo-pdv.sh</code></li>
+    <li>Execute o arquivo com o comando: <code>./abrir-nexo-pdv.sh</code></li>
+    <li>O Nexo PDV será aberto em modo app, sem a barra de URL</li>
+  </ol>
+  
+  <h2>Criando um Atalho na Área de Trabalho</h2>
+  
+  <h3>No Windows:</h3>
+  <ol class="steps">
+    <li>Clique com o botão direito no arquivo .bat</li>
+    <li>Selecione "Criar Atalho"</li>
+    <li>Mova o atalho para a Área de Trabalho</li>
+    <li>Para personalizar o ícone, clique com o botão direito no atalho, selecione "Propriedades" e depois "Alterar ícone"</li>
+    <li><strong>Novo!</strong> <a href="icone-carrinho.html">Clique aqui</a> para obter um ícone de carrinho de compras para seus atalhos</li>
+  </ol>
+  
+  <h3>No Linux:</h3>
+  <ol class="steps">
+    <li>Crie um arquivo .desktop na pasta ~/.local/share/applications/</li>
+    <li>Adicione o seguinte conteúdo (ajustando os caminhos conforme necessário):</li>
+    <code>
+      [Desktop Entry]<br>
+      Name=Nexo PDV<br>
+      Exec=/caminho/para/abrir-nexo-pdv.sh<br>
+      Icon=/caminho/para/icone.png<br>
+      Type=Application<br>
+      Categories=Office;
+    </code>
+  </ol>
+  
+  <h2>Perguntas Frequentes</h2>
+  
+  <div class="card">
+    <h3>O Chrome não é encontrado automaticamente</h3>
+    <p>
+      Se o script não encontrar o Chrome automaticamente, você pode editar o arquivo .bat ou .sh e ajustar o caminho para o executável do Chrome no seu sistema.
+    </p>
+  </div>
+  
+  <div class="card">
+    <h3>Quero usar um ambiente diferente</h3>
+    <p>
+      Na versão completa para Windows e Linux/macOS, você pode selecionar diferentes ambientes (produção, desenvolvimento, etc.).
+      Para o ambiente de desenvolvimento, o script perguntará em qual porta o projeto está rodando.
+      Na versão simples, você pode editar o arquivo e alterar a URL para o ambiente desejado.
+    </p>
+  </div>
+  
+  <div class="card">
+    <h3>O que fazer se aparecer um aviso de segurança?</h3>
+    <p>
+      Alguns sistemas podem mostrar um aviso de segurança ao executar arquivos .bat. Isso é normal.
+      Você pode clicar em "Mais informações" e depois em "Executar assim mesmo" para prosseguir.
+    </p>
+  </div>
+  
+  <div class="card">
+    <h3>Porta personalizada para ambiente de desenvolvimento</h3>
+    <p>
+      Se você estiver usando uma das versões para desenvolvimento (abrir-nexo-pdv-porta.bat ou abrir-nexo-pdv-dev.bat), o script perguntará em qual porta o projeto está rodando.
+      Por padrão, a porta é 5173, mas você pode especificar outra porta se necessário.
+    </p>
+    <p>
+      <strong>Tela Cheia:</strong> Todos os scripts agora abrem o Chrome em tela cheia automaticamente, proporcionando uma experiência mais imersiva.
+    </p>
+    <p>
+      <strong>Recomendação:</strong> Para melhor experiência, use a versão específica para o ambiente que você precisa:
+    </p>
+    <ul>
+      <li>Use <code>abrir-nexo-pdv-simples.bat</code> para acessar o ambiente de produção</li>
+      <li>Use <code>abrir-nexo-pdv-porta.bat</code> para acessar o ambiente de desenvolvimento local (versão simples)</li>
+      <li>Use <code>abrir-nexo-pdv-dev.bat</code> para acessar o ambiente de desenvolvimento local (versão avançada)</li>
+    </ul>
+  </div>
+  
+  <div class="note">
+    <p>
+      <strong>Dica:</strong> Você pode criar um atalho para este arquivo na Área de Trabalho ou na barra de tarefas para acessar o Nexo PDV rapidamente.
+    </p>
+  </div>
+  
+  <footer style="margin-top: 50px; text-align: center; color: #6b7280; font-size: 14px;">
+    <p>Nexo PDV - Modo App Sem Barra de URL</p>
+    <p>© 2025 Nexo PDV. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
